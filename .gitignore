@@ -8,3 +8,4 @@ dist/
 .tox/
 .mypy_cache
 build/
+.idea
