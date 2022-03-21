@@ -105,6 +105,13 @@ CSS21_NAMES_TO_HEX = {"orange": "#ffa500", **HTML4_NAMES_TO_HEX}
 # distribution of this module downloads a copy of the CSS 3 color
 # module and parses out the color names to ensure the values below are
 # correct.
+
+AVOIR_HEX_TO_NAMES = {
+    "black": "#000000",
+    "white": "#FFFFFF",
+}
+
+
 CSS3_NAMES_TO_HEX = {
     "aliceblue": "#f0f8ff",
     "antiquewhite": "#faebd7",
