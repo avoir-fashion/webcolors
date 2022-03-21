@@ -106,7 +106,7 @@ CSS21_NAMES_TO_HEX = {"orange": "#ffa500", **HTML4_NAMES_TO_HEX}
 # module and parses out the color names to ensure the values below are
 # correct.
 
-AVOIR_HEX_TO_NAMES = {
+AVOIR_NAMES_TO_HEX = {
     "black": "#000000",
     "white": "#FFFFFF",
 }
@@ -273,6 +273,8 @@ CSS2_HEX_TO_NAMES = HTML4_HEX_TO_NAMES
 CSS21_HEX_TO_NAMES = _reversedict(CSS21_NAMES_TO_HEX)
 
 CSS3_HEX_TO_NAMES = _reversedict(CSS3_NAMES_TO_HEX)
+
+AVOIR_HEX_TO_NAMES = _reversedict(AVOIR_NAMES_TO_HEX)
 
 # CSS3 defines both 'gray' and 'grey', as well as defining either
 # variant for other related colors like 'darkgray'/'darkgrey'. For a
