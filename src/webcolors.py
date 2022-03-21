@@ -30,8 +30,9 @@ HTML4 = "html4"
 CSS2 = "css2"
 CSS21 = "css21"
 CSS3 = "css3"
+AVOIR = "avoir"
 
-SUPPORTED_SPECIFICATIONS = (HTML4, CSS2, CSS21, CSS3)
+SUPPORTED_SPECIFICATIONS = (HTML4, CSS2, CSS21, CSS3, AVOIR)
 
 SPECIFICATION_ERROR_TEMPLATE = "{{spec}} is not a supported specification for color name lookups; \
 supported specifications are: {supported}.".format(
@@ -107,8 +108,8 @@ CSS21_NAMES_TO_HEX = {"orange": "#ffa500", **HTML4_NAMES_TO_HEX}
 # correct.
 
 AVOIR_NAMES_TO_HEX = {
-    "black": "#000000",
-    "white": "#FFFFFF",
+     "black": "#000000",
+    "white": "#ffffff",
 }
 
 
