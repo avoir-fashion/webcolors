@@ -107,20 +107,27 @@ CSS21_NAMES_TO_HEX = {"orange": "#ffa500", **HTML4_NAMES_TO_HEX}
 # correct.
 
 AVOIR_NAMES_TO_HEX = {
-    'black': '#000000',
-    'blue': '#0000ff',
-    'brown': '#996633',
-    'darkgrey': '#666666',
-    'gold': '#ffcc99',
-    'green': '#008000',
-    'lightgrey': '#cccccc',
-    'lime': '#00ff00',
-    'orange': '#ff6600',
-    'pink': '#ff00ff',
-    'purple': '#cc00ff',
-    'red': '#ff0000',
-    'white': '#ffffff',
-    'yellow': '#ffff00'
+    'Black': '#000000',
+    'Blue': '#0000ff',
+    'Light Blue': '#99ccff',
+    'Brown': '#996633',
+    'Dark Grey': '#666666',
+    'Beige': '#ffcc99',
+    'Green': '#008000',
+    'Dark Green': '#003300',
+    "Light Green": '#33cc99',
+    'Light Grey': '#cccccc',
+    'Lime': '#00ff00',
+    'Orange': '#ff6633',
+    'light Orange': '#ff6633',
+    'Pink': '#ff00ff',
+    'Purple': '#cc00ff',
+    'Red': '#ff0000',
+    'White': '#ffffff',
+    'Yellow': '#ffff00',
+    'Light Yellow': '#f4f3b5',
+    'Lilac': '#ccccff',
+    'Dark Red': '#990000',
 }
 
 CSS3_NAMES_TO_HEX = {
