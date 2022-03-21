@@ -111,7 +111,7 @@ AVOIR_NAMES_TO_HEX = {
     'blue': '#0000ff',
     'brown': '#996633',
     'darkgrey': '#666666',
-    'gold': 'ffcc99',
+    'gold': '#ffcc99',
     'green': '#008000',
     'lightgrey': '#cccccc',
     'lime': '#00ff00',
